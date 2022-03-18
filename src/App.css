@@ -1,0 +1,44 @@
+.App {
+  height: 100vh;
+  padding-top: 10px;
+  background-color: #1b1b32;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-bottom: 3rem;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.container-calculator {
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: #99c9ff;
+  border-radius: 20px;
+  border: 0.5rem solid white;
+}
+
+.row {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .App {
+    margin-bottom: 4rem;
+  }
+  .container-calculator {
+    width: 80%;
+    height: auto;
+    margin: 2rem;
+  }
+}

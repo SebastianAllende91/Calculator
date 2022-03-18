@@ -1,0 +1,60 @@
+.btn-container {
+  height: 83px;
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.btn-container:hover {
+  background-color: #5a01a7;
+}
+
+.operator {
+  background-color: #00471b;
+}
+
+.operator:hover {
+  background-color: #ff6600;
+}
+
+.btn-clear {
+  height: 80px;
+  font-size: 1.6em;
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #ac0246;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.btn-clear:hover {
+  background-color: #ebb000;
+}
+
+@media (max-width: 400px) {
+  .btn-container {
+    height: 100%;
+  }
+}
+
+.close {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
